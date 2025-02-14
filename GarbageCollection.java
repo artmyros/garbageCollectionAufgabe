@@ -22,7 +22,8 @@ class GarbageCollection
     public static void update (int[] speicher)
     {
     	int n = (int)(Math.random() * 10);
-        speicher[n] = (int)(Math.random() * 11);
+	//9, 10, 11 und 12 repräsentieren Variablen
+        speicher[n] = (int)(Math.random() * 13);
         if (speicher[n] == n) speicher[n] = -1;
     }
     
