@@ -24,8 +24,6 @@ class GarbageCollection
     	int n = (int)(Math.random() * 10);
         speicher[n] = (int)(Math.random() * 9);
         if (speicher[n] == n) speicher[n] = -1;
-
-        output(speicher);
     }
     
     public static void output (int[] speicher)
